@@ -1,0 +1,46 @@
+.profilecontainer {
+  padding-top: 3%;
+  width: 90%;
+  margin: auto;
+}
+.innerup {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.profileru {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  padding:20px;
+  border-radius: 20px;
+  border: 2px dotted indigo;
+  height: fit-content;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .profilecontainer {
+    padding-top: 4%;
+    width: 99%;
+  }
+  .innerup {
+    display: block;
+    margin: auto;
+    width: 95%;
+    flex-direction: column;
+  }
+  .profileru {
+    width: 95%;
+    margin: auto;
+  padding:10px;
+  margin-bottom: 20px;
+
+  }
+ 
+ 
+  
+}
